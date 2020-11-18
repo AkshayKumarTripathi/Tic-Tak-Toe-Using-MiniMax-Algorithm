@@ -173,6 +173,7 @@ class Game:
                     if self.is_valid(move_x,move_y):
                         self.board[move_x][move_y]="X"
                         self.player_turn="O"
+                        
                         break
                     else:
                         print('invalid move try again')
